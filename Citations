@@ -1,0 +1,5 @@
+Citations:
+Bootstrap was used for the design of each of the templates in use (main, sentiment and show). I used them as the basis, but then went on to heavily modify each of the templates to fit my purpose.
+Polarity.txt file was obtained from AFINN research: http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010 and used for sentiment scoring
+Getoldtweets is cloned from a github repo: https://github.com/Jefferson-Henrique/GetOldTweets-python, enables access to tweets beyond only the past week as is provided by twitter api
+Matplotlib documentation to learn about subplots and animated plots

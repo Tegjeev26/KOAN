@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Shop Item - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../static/bootstrapSenti/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../static/bootstrapSenti/css/shop-item.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+
+            <div class="col-md-9">
+
+                <div class="thumbnail">
+                    <img class="img-responsive" src="../static/sentimentanalysis.png" alt="">
+                    <div class="caption-full">
+                        
+                        <h4>Sentiment Analysis</h4>
+                        <p>This approach was used in analysing the tweets corresponding to the stock in question, with the goal of extracting relevant and useful information about the company. Specifically, sentiment analysis is geared towards extracting behavioural or opinonated data, and was applied to tweets discussing the company in question in this case.
+                        </p>
+                        <p> This tool made use of the 'bag of words' machine learning approach to sentiment analysis, which seeks to assign to each word a sentiment value representing the probability of that word being using in a positive or negative context. Using those weightings, this tool supplied output about public opinion of the company in question, and factored this behavioural data into the stock analysis.</p>
+                        <p>Below are some of the tweets analysed surrounding the company you want to investigate, and the way in which our algorithm interpreted them.</p>
+                    
+                    </div>
+                </div>
+
+                <div class="well">
+
+
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <span class="pull-right">{{sentiment1}}</span>
+                            <p>{{T1black1}} <span style="color: {{T1color1}}">{{T1outlier1}} </span>{{T1black2}} <span style="color: {{T1color2}}">{{T1outlier2}}</span> {{T1black3}}...</p>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <span class="pull-right">{{sentiment2}}</span>
+                            <p>{{T2black1}} <span style="color: {{T2color1}}">{{T2outlier1}} </span>{{T2black2}} <span style="color: {{T2color2}}">{{T2outlier2}}</span> {{T2black3}}...</p>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <span class="pull-right">{{sentiment3}}</span>
+                            <p>{{T3black1}} <span style="color: {{T3color1}}">{{T3outlier1}} </span>{{T3black2}} <span style="color: {{T3color2}}">{{T3outlier2}}</span> {{T3black3}}...</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <div class="container">
+
+        <hr>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="../static/bootstrapSenti/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../static/bootstrapSenti/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
